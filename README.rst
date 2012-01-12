@@ -1,6 +1,5 @@
 Introduction
 ============
 
+This addon integrate s5 to Plone.
 
-
-This product may contain traces of nuts.

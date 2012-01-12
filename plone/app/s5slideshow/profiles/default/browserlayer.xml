@@ -1,6 +1,4 @@
 <layers>
-<!-- uncomment to activate
     <layer name="plone.app.s5slideshow"
            interface="plone.app.s5slideshow.interfaces.ILayer" />
--->
 </layers>
