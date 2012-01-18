@@ -4,9 +4,6 @@
 *  http://meyerweb.com/eric/tools/s5/
 */
 
-/* <dtml-with base_properties> (do not remove this :) */
-/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
-
 /*
 ** BASE STYLES
 */
@@ -29,22 +26,22 @@ blockquote b i {font-style: italic;}
 kbd {font-weight: bold; font-size: 1em;}
 sup {font-size: smaller; line-height: 1px;}
 
-.slide code {padding: 2px 0.25em; font-weight: bold; color: &dtml-fontColor;;}
+.slide code {padding: 2px 0.25em; font-weight: bold; color: black;}
 .slide code.bad, code del {color: red;}
 .slide code.old {color: silver;}
-.slide pre {padding: 0; margin: 0.25em 0 0.5em 0.5em; color: &dtml-fontColor;; font-size: 90%;}
+.slide pre {padding: 0; margin: 0.25em 0 0.5em 0.5em; color: black; font-size: 90%;}
 .slide pre code {display: block;}
 .slide ul {margin-left: 5%; margin-right: 7%; list-style: square;}
 .slide li {margin-top: 0.75em; margin-right: 0;}
 .slide ul ul {line-height: 1;}
 .slide ul ul li {margin: .2em; font-size: 85%; list-style: square;}
 .slide img.leader {display: block; margin: 0 auto;}
-.slide a { text-decoration: none; border-bottom: 2px solid &dtml-linkColor;;}
+.slide a { text-decoration: none; border-bottom: 2px solid black;}
 
 ul.urls {list-style: none; display: inline; margin: 0;}
 .urls li {display: inline; margin: 0;}
 .note, p, .discreet {display: none;}
-.external {border-bottom: &dtml-borderWidth; dotted &dtml-contentViewBorderColor;;}
+.external {border-bottom: 1px dotted black;}
 html>body .external {border-bottom: none;}
 .external:after {content: " \274F"; font-size: smaller; color: #77B;}
 
@@ -64,10 +61,10 @@ h1 abbr {
 */
 
 div#header {
-    color: &dtml-fontColor;;
+    color: black;
     line-height: 1px;
-    border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
-    background-color: &dtml-globalBackgroundColor;;
+    border-bottom: 1px solid black;
+    background-color: White;
 }
 .slide h1 {
     position: absolute; 
@@ -78,7 +75,7 @@ div#header {
     padding: 0.3em 0 0 1em; 
     white-space: nowrap;
     font: bold 150%/1em Helvetica, sans-serif; 
-    color: &dtml-fontColor;; 
+    color: black; 
     text-align: center;
 }
 
@@ -87,9 +84,9 @@ div#header {
 */
 
 div#footer {
-    background: &dtml-backgroundColor; url('&dtml-portal_url;/&dtml-logoName;') 10px 10px no-repeat; 
-    border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;    
-    color: &dtml-fontColor;;
+    background: White url(../../logo.png) 10px 10px no-repeat; 
+    border-top: 1px solid black;    
+    color: black;
     font-size: 0.5em; 
     font-weight: bold; 
     padding: 1em 0;    
@@ -110,7 +107,7 @@ div#footer {
 #currentSlide {
     text-align: center; 
     font-size: 0.5em; 
-    color: &dtml-fontColor;;
+    color: black;
 }
 
 /* controls styles */
@@ -146,15 +143,15 @@ div#controls form {
     position: absolute; 
     bottom: 0; 
     right: 0; 
-    background: &dtml-globalBackgroundColor;; 
-    color: &dtml-globalFontColor;;
+    background: White; 
+    color: black;
 }
 #controls #navLinks a {
     padding: 0; 
     margin: 0 0.5em;
-    background: &dtml-backgroundColor;; 
+    background: White; 
     border: none; 
-    color: &dtml-linkColor;; 
+    color: black; 
     cursor: pointer;
     text-decoration: none;
 }

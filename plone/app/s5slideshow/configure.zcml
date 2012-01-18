@@ -9,12 +9,4 @@
     directory="resources"
     />
 
-  <genericsetup:registerProfile
-      name="default"
-      title="plone.app.s5slideshow"
-      directory="profiles/default"
-      description='Extension profile for plone.app.s5slideshow.'
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-
 </configure>
